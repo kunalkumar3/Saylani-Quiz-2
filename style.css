@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    max-width: 1200px;
+    background: rgb(255, 255, 255);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-section {
+    padding: 40px;
+}
+
+.form-section h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section form input {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.form-section form input:focus {
+    border-color: #4caf50;
+    outline: none;
+}
+
+.form-section form label {
+    font-size: 14px;
+    color: #080808;
+    margin-bottom: 5px;
+} 
+
+.form-section form .terms {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.form-section form .terms input {
+    margin-right: 10px;
+}
+
+.form-section form button {
+    background: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.form-section form button:hover {
+    background: #0b0b0b;
+}
+
+.social-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.social-login button {
+    margin: 0 10px;
+    background: none;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.social-login :hover{
+    background-color: #666666;
+}
+
+.social-login button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.image-section {
+    border-radius: 3%;
+    background: url('./plant.jfif') no-repeat center center/cover;
+}
+
+
